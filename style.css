@@ -1,0 +1,415 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: #139EF2;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+h4 {
+    color: #B2DFFC;
+    font-size: 14px;
+    transition: color 300ms;
+}
+
+h4:hover {
+    color: #0095F6;
+    cursor: pointer;
+}
+
+ion-icon:hover{
+    cursor: pointer;
+}
+
+
+/* Topo */
+
+.vertical-line{
+    border-left: 1px solid #DBDBDB;
+    margin: 0 10px 6px 10px;
+}
+
+.topo {
+    background-color: #ffff;
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+}
+
+.topo-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 935px;
+}
+
+
+.topo-icons div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+
+.topo-icons div:nth-child(3){
+    font-size: 22px;
+    width: 148px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topo-icons input{
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+    height: 28px;
+}
+
+::placeholder {
+    opacity: 0.5;
+    font-size: 12px
+  }
+
+  /* Page */
+.page {
+    display: flex;
+    width: 935px;
+    background-color: #fafafa;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.display {
+    width: 614px;
+}
+
+/* Stories */
+
+.stories{
+    background-color: #FFFFFF;
+    height: 118px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.borda{
+    color: #262626;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.borda img {
+    height: 66px;
+    border-radius: 50%;
+}
+
+.borda p{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.story {
+    z-index: 1;
+    position: absolute;
+    left: 7.5%;
+    top: 17%;
+}
+
+.story img{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.seta {
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+
+/* Publicações */
+
+.posts{
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    border: 1px solid #DBDBDB;
+}
+
+
+.post img {
+    width: 100%;
+}
+
+.post video{
+    width: 100%;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 17px;
+    color: #262626;
+}
+
+.usuario img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.usuario div{
+    display: flex;
+    align-items: center;
+}
+
+.interacoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px;
+    font-size: 22px;
+}
+
+.likes{
+    display: flex;
+    font-size: 14px;
+    padding: 0 17px 10px 17px;
+    align-items: center;
+}
+
+.likes img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.comentarios > div {
+    padding: 0px 17px 10px 17px;
+}
+
+.comentarios div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.comentarios p {
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.comentarios input{
+    border-style: hidden;
+    outline: none;
+    padding-left: 10px;
+    text-align: center;
+    width: 100%;
+    height: 28px;
+}
+
+.comentar{
+    border-top: 1px solid #DBDBDB;
+}
+
+.comentar div{
+    padding-top: 10px;
+}
+
+/* Sidebar */
+
+.sidebar2{
+    width: 293px;
+}
+
+.sidebar{
+    width: 293px;
+    height: 100%;
+    position: fixed;
+    top: 95px;
+}
+
+.sidebar > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.type {
+    display: flex;
+    align-items: center;
+}
+
+.type img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.type2 img{
+    width: 56px;
+    height: 56px;
+}
+
+.type h2{
+    color: #262626;
+}
+
+.type p{
+    color: #8e8e8e;
+}
+
+.sidebar div:nth-child(2){
+    font-size: 12px;
+}
+
+.sidebar div:nth-child(2) h2{
+    font-size: 12px;
+}
+
+.type3{
+    color: #c7c7c7;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.type3 p {
+    margin-bottom: 18px;
+}
+
+/* Borda inferior */
+
+.inferior {
+    display: none;
+}
+
+
+/* Tirar Sidebar */
+
+@media (max-width: 935px) {
+    .page{
+        width: 100%;
+        justify-content: center;
+    }
+    .sidebar2 {
+        display: none;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 614px) {
+    .page {
+        margin-top: 54px;
+        width: 100%;
+    }
+
+    .display{
+        width: 100%;
+    }
+
+
+    .stories{
+        width: 100%;
+        margin-bottom: 0;
+        background-color: #fafafa;
+    }
+    
+
+    .seta{
+        display: none;
+    }
+
+    .inferior {
+        display: inline;
+        background-color: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        width: 100%;
+        height: 54px;
+        position: fixed;
+        z-index: 2px;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        font-size: 22px;
+        padding: 16px 0;
+    }
+
+    /* Topo */
+
+    .topo-icons div:nth-child(1){
+        width: 62px;
+        justify-content: center;
+    }
+
+    .topo-icons div:nth-child(1) div:nth-child(2){
+        display: none;
+    }
+    
+    .topo-icons div:nth-child(1) img{
+        display: none;
+    }
+
+    .topo div:nth-child(3){
+        width: 54px;
+        justify-content: center;
+    }
+
+    .topo-icons div:nth-child(3) ion-icon:nth-child(2){
+        display: none;}
+
+    .topo-icons div:nth-child(3) ion-icon:nth-child(3){
+        display: none;
+    }
+
+    .topo-icons div:nth-child(3) ion-icon:nth-child(4){
+        display: none;
+    }
+}
