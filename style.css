@@ -79,6 +79,10 @@ ion-icon:hover{
     font-size: 22px;
 }
 
+.topo-icons div:nth-child(2) img{
+    display: none;
+}
+
 .topo-icons div:nth-child(3){
     font-size: 22px;
     width: 148px;
@@ -400,6 +404,14 @@ ion-icon:hover{
     .topo div:nth-child(3){
         width: 54px;
         justify-content: center;
+    }
+
+    .topo-icons div:nth-child(2) img{
+        display: inline;
+    }
+
+    .topo-icons input{
+        display: none;
     }
 
     .topo-icons div:nth-child(3) ion-icon:nth-child(2){
